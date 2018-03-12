@@ -26,7 +26,7 @@ const x = this.getXValue(value);
 ```
 
 If the block is significantly large, you may even consider moving that portion of a template to a child component, 
-and pass its dependent values and methods in. It may take more lines of code, but having as few lines of code as possible*is not the goal of readable, maintainable code.*
+and pass its dependent values and methods in. It may take more lines of code, but having as few lines of code as possible *is not the goal of readable, maintainable code.*
 
 `<ChildComponent x={x} getXValue={this.getXValue} />`
 
