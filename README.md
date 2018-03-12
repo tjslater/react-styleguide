@@ -1,4 +1,5 @@
-# react-styleguide
-Styleguide for making react components readable and maintainable
+## react-styleguide
 
-Styleguide will include ES6 standards, as well as aesthetics that I consider optimal in creating a satisfactory codebase.
+First and foremost, read: [Clean Code Javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+
+Next, I've built upon both his ideas with more idiomatic ideas and examples, and the syntax is all ES6.
