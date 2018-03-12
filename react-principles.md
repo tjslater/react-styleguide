@@ -51,7 +51,7 @@ If a portion of a template is predicated on whether a variable matches a given v
 
 
 ## Variable declaration
-####Part A
+#### Part A
 It is a common principle to declare as many of your variables as you can at the top of a function or block scope.
 In Javascript classes, at the top of the class or assigned values in the constructor.
 React is no different with its constructor and its state object. A good thing to remember for keeping code readable is
@@ -107,7 +107,7 @@ class SmartComponent extends React.Component {
 }
 ```
 
-####Part B
+#### Part B
 In keeping with the variable declaration at the top of the scope, remember also to keep as many of your declared values
 to a Smart Component that's typically the parent scope and pass those values into  its children, keeping as many of them
 as Dumb Components as you can. This is so you can not only keep track of all your dynamic variables in one place, but it
@@ -160,6 +160,6 @@ class SmartComponent extends React.Component {
 const ChildComponent = (newValue) => {...}
 ```
 
-###Documenting code
-Consider[JSDoc](http://usejsdoc.org/howto-es2015-classes.html)standards.
+### Documenting code
+Consider[JSDoc](http://usejsdoc.org/howto-es2015-classes.html) standards.
 One doesn't need to use all of them, but a short description plus @param and @return documentation is a big help.
