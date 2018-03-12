@@ -72,7 +72,7 @@ class SmartComponent extends React.Component {
     const newValue = props.constant * 2 
     return (
         <div>
-        {updatingValue}
+        {newValue}
         
         </div>
     )
