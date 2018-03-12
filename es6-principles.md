@@ -1,7 +1,7 @@
 #Principles of Readability
 ### String matching
 Since precision and speed always matter, and Regular Expressions are both more precise and faster,
-String matching really should be*Regular Expression matching*.
+String matching really should be *Regular Expression matching*.
 
 ### Strings as key maps
 
