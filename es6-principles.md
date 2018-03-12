@@ -29,7 +29,7 @@ codes = {
     keycodeD: "expectedValueA"
 }
 ...
-let output = this.codes[string];
+let output = this.codes[s];
 
 ```
 
