@@ -86,7 +86,7 @@ class SmartComponent extends React.Component {
 
   constructor(props) {
     super(props);
-    const newValue = descriptiveFunctionName();
+    const newValue = this.descriptiveFunctionName();
     this.state = {
         newValue: newValue    
     }
