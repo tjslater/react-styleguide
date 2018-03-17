@@ -47,7 +47,9 @@ Due to javascript's typing system, multiple falsey tests are not required.
 If a portion of a template is predicated on whether a variable matches a given value, and the alternate option is `null` or `''`,
 *There is no need for a ternary operation*.
 
-`truthyValue && <div>...</div>`
+Bad: `truthyValue ? <div>...</div> : ''`
+
+Good: `truthyValue && <div>...</div>`
 
 
 ## Variable declaration
