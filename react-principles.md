@@ -110,12 +110,11 @@ class SmartComponent extends React.Component {
 ```
 
 #### Part B
-In keeping with the variable declaration at the top of the scope, remember also to keep as many of your declared values
-to a Smart Component that's typically the parent scope and pass those values into  its children, keeping as many of them
-as Dumb Components as you can. This is so you can not only keep track of all your dynamic variables in one place, but it
+In keeping with the variable declaration at the top of the scope, remember to keep as many of your declared values
+in a 'Smart' Component (that's typically the parent scope) and pass those values into its children, keeping child components
+as 'Dumb' as you can. This is so you can not only keep track of all your dynamic variables in one place, but it
 it removes the possibility for unintended side effects in the children, and also allows other people on your team to see
-more clearly exactly what's going on.*Keep in mind, this isn't true for generic containers that hold elements that are consistent between pages.
-Such as the navigation and the footer.*
+more clearly exactly what's going on.*Keep in mind, this isn't true for generic containers that hold elements that are consistent between pages. Such as the navigation and the footer.*
 
 **Bad:**
 ```
